@@ -1,0 +1,19 @@
+#!/bin/bash
+dos2unix
+# This file contains the hardware details of the system you are running
+
+echo "Hardware details: "
+echo "The OS version is "
+lsb_release -d;
+echo "Kernal version: "
+uname -r;
+echo "CPU cores: "
+nproc --all;
+echo "CPU clock-speed"
+lscpu | grep MHz;
+echo "Architecture: "
+lscpu | grep Architecture;
+echo "RAM: "
+free -m;
+echo "Disk volume,type,storage: "
+mount -l
