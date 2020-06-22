@@ -2,7 +2,7 @@
  Dockers for vernacular ai
 "# Dockerfiles" 
 
-Cloning the dockerfile on to the local system. Typ ethis command on the terminal
+Cloning the dockerfile on to the local system. Typ this command on the terminal
 
 git clone https://github.com/Akshataavk/Dockerfiles.git
 
