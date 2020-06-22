@@ -1,5 +1,6 @@
 #!/bin/bash
-dos2unix
+#This file is run on WSL so it may differ on other systems.
+#/r command not found maybe an error on Windows - Run command: sed -i 's/\r$//' hardware.txt before running the file
 # This file contains the hardware details of the system you are running
 
 echo "Hardware details: "
