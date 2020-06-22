@@ -6,6 +6,7 @@
 echo "Hardware details: "
 echo "The OS version is "
 lsb_release -d;
+#or cat/etc/os-release;
 echo "Kernal version: "
 uname -r;
 echo "CPU cores: "
